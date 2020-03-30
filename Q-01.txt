@@ -1,0 +1,228 @@
+# Question - 01 : Afghanistan
+
+Afghanistan = df[df.Location == 'Afghanistan']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Afghanistan)
+
+# Question - 02 : Algeria  
+
+Algeria  = df[df.Location == 'Algeria']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Algeria)                                                                         
+
+# Question - 03 : Argentina 
+
+Argentina  = df[df.Location == 'Argentina']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Argentina)                                  
+
+# Question - 04 : Armenia 
+
+Armenia = df[df.Location == 'Armenia']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Armenia)
+
+# Question - 05 : Bangladesh
+
+Bangladesh = df[df.Location == 'Bangladesh']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Bangladesh)
+
+# Question - 06 : Central African Republic
+
+Central_African_Republic = df[df.Location == 'Central African Republic']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Central_African_Republic)
+
+# Question - 07 : Chad
+
+Chad = df[df.Location == 'Chad']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Chad)
+
+# Question - 08 : China
+
+China = df[df.Location == 'China']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(China)
+
+# Question - 09 : India
+
+India = df[df.Location == 'India']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(India)
+
+# Question - 10 : Indonesia
+
+Indonesia = df[df.Location == 'Indonesia']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Indonesia)
+
+# Question - 11 : Thailand
+
+Thailand = df[df.Location == 'Thailand']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Thailand)
+
+# Question - 12 : United Arab Emirates
+
+UAE = df[df.Location == 'United Arab Emirates']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(UAE)
+
+
+--------------[ OUTPUT ]----------------------
+
+
+      Location        Indicator  Period First Tooltip
+0  Afghanistan  Human resources    2017            40
+1  Afghanistan  Human resources    2016            40
+2  Afghanistan  Human resources    2015            40
+3  Afghanistan  Human resources    2014            20
+4  Afghanistan  Human resources    2013            40
+5  Afghanistan  Human resources    2012            20
+6  Afghanistan  Human resources    2011            25
+7  Afghanistan  Human resources    2010            16
+
+
+--------------[ OUTPUT ]----------------------
+
+
+   Location        Indicator  Period First Tooltip
+9   Algeria  Human resources    2017            60
+10  Algeria  Human resources    2016            40
+11  Algeria  Human resources    2015            60
+12  Algeria  Human resources    2014            60
+13  Algeria  Human resources    2013            60
+14  Algeria  Human resources    2012             0
+15  Algeria  Human resources    2011             0
+16  Algeria  Human resources    2010            50
+
+
+--------------[ OUTPUT ]----------------------
+
+
+     Location        Indicator  Period First Tooltip
+37  Argentina  Human resources    2017            40
+38  Argentina  Human resources    2016            40
+39  Argentina  Human resources    2015           100
+40  Argentina  Human resources    2014           100
+41  Argentina  Human resources    2013           100
+42  Argentina  Human resources    2012           100
+43  Argentina  Human resources    2011           100
+
+
+--------------[ OUTPUT ]----------------------
+
+
+   Location        Indicator  Period First Tooltip
+44  Armenia  Human resources    2017            80
+45  Armenia  Human resources    2015            80
+46  Armenia  Human resources    2014            80
+47  Armenia  Human resources    2013           100
+48  Armenia  Human resources    2012            80
+49  Armenia  Human resources    2011             0
+50  Armenia  Human resources    2010           100
+
+
+--------------[ OUTPUT ]----------------------
+
+
+      Location        Indicator  Period First Tooltip
+85  Bangladesh  Human resources    2017           100
+86  Bangladesh  Human resources    2016           100
+87  Bangladesh  Human resources    2015           100
+88  Bangladesh  Human resources    2014           100
+89  Bangladesh  Human resources    2013           100
+90  Bangladesh  Human resources    2012            80
+91  Bangladesh  Human resources    2011            75
+92  Bangladesh  Human resources    2010            83
+
+
+--------------[ OUTPUT ]----------------------
+
+
+                     Location        Indicator  Period First Tooltip
+199  Central African Republic  Human resources    2017            40
+200  Central African Republic  Human resources    2016            60
+201  Central African Republic  Human resources    2014            40
+202  Central African Republic  Human resources    2013            40
+203  Central African Republic  Human resources    2011            50
+
+
+--------------[ OUTPUT ]----------------------
+
+
+    Location        Indicator  Period First Tooltip
+204     Chad  Human resources    2017            60
+205     Chad  Human resources    2016            20
+206     Chad  Human resources    2015            20
+207     Chad  Human resources    2013            20
+208     Chad  Human resources    2011             0
+
+
+--------------[ OUTPUT ]----------------------
+
+
+    Location        Indicator  Period First Tooltip
+216    China  Human resources    2017           100
+217    China  Human resources    2016            80
+218    China  Human resources    2015           100
+219    China  Human resources    2014           100
+220    China  Human resources    2013           100
+221    China  Human resources    2012           100
+222    China  Human resources    2011            75
+223    China  Human resources    2010            83
+
+
+--------------[ OUTPUT ]----------------------
+
+
+    Location        Indicator  Period First Tooltip
+480    India  Human resources    2017           100
+481    India  Human resources    2016           100
+482    India  Human resources    2013           100
+483    India  Human resources    2012           100
+484    India  Human resources    2011            50
+485    India  Human resources    2010            83
+
+
+--------------[ OUTPUT ]----------------------
+
+
+      Location        Indicator  Period First Tooltip
+486  Indonesia  Human resources    2017           100
+487  Indonesia  Human resources    2016           100
+488  Indonesia  Human resources    2015            80
+489  Indonesia  Human resources    2014            80
+490  Indonesia  Human resources    2013            80
+491  Indonesia  Human resources    2012            80
+492  Indonesia  Human resources    2011           100
+493  Indonesia  Human resources    2010            83
+
+
+--------------[ OUTPUT ]----------------------
+
+
+      Location        Indicator  Period First Tooltip
+1025  Thailand  Human resources    2017           100
+1026  Thailand  Human resources    2016           100
+1027  Thailand  Human resources    2014           100
+1028  Thailand  Human resources    2013            80
+1029  Thailand  Human resources    2012            80
+1030  Thailand  Human resources    2011            75
+1031  Thailand  Human resources    2010            66
+
+
+--------------[ OUTPUT ]----------------------
+
+
+                  Location        Indicator  Period First Tooltip
+1086  United Arab Emirates  Human resources    2017            80
+1087  United Arab Emirates  Human resources    2016            80
+1088  United Arab Emirates  Human resources    2015            80
+1089  United Arab Emirates  Human resources    2014            80
+1090  United Arab Emirates  Human resources    2013            40
+1091  United Arab Emirates  Human resources    2012             0
+1092  United Arab Emirates  Human resources    2011             0
+1093  United Arab Emirates  Human resources    2010             0
